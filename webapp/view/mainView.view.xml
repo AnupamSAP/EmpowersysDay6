@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.emp.empproject6.controller.mainView"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <List items="{/Categories}">
+                
+                    <StandardListItem title="{Description}"/>
+              
+            </List>
+        </content>
+    </Page>
+</mvc:View>
